@@ -134,6 +134,18 @@ nav {
 /* Portfolio------------ */
 
 
+/* Contact-Me----------- */
+.contact-me {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+    z-index: 1;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+/* Contact-Me----------- */
+
+
 /* Footer-Bar------------ */
 .footer {
     display: flex;
@@ -177,6 +189,7 @@ nav {
 
     .about-me {
         padding-bottom: 30px;
+        margin-top: 0;
     }
 
     .portfolio {
@@ -224,6 +237,7 @@ nav {
 
     .about-me {
         padding-bottom: 30px;
+        margin-top: 0;
     }
 
     .footer-div {
