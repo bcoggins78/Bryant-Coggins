@@ -175,6 +175,13 @@ nav {
     z-index: 1;
     margin-bottom: 30px;
     margin-top: 30px;
+    text-rendering: optimizeLegibility;
+    color: #131313;
+    letter-spacing: .15em;
+    text-shadow: 
+      1px 1px 0px #d5d5d5, 
+      1.75px 1.75px 0px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
     
 }
 
