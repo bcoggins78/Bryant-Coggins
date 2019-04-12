@@ -33,6 +33,10 @@ body {
     background-color: rgb(151, 151, 163);
 }
 
+a:link {
+    text-decoration: none;
+}
+
 /* Nav-Bar-------------- */
 nav {
     display: flex;
@@ -129,10 +133,10 @@ nav {
 .portfolio-img {
     margin-bottom: 20px;
     position: relative;
-    
+    transition: 1s ease;
 }
 
-.portfolio-div:hover {
+.portfolio-img:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -163,6 +167,16 @@ nav {
       1px 1px 0px #d5d5d5, 
       1.75px 1.75px 0px rgba(0, 0, 0, 0.2);
     font-weight: bold;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.gh-logo {
+    float: left;
+    margin-left: 5px;
+    margin-top: -3px;
 }
 /* Portfolio------------ */
 
@@ -183,6 +197,17 @@ nav {
       1.75px 1.75px 0px rgba(0, 0, 0, 0.2);
     font-weight: bold;
     
+}
+
+.contact {
+    /* margin-left: 205px; */
+    background-color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+
 }
 
 .submit-btn {
@@ -293,6 +318,10 @@ nav {
     .about-me {
         padding-bottom: 30px;
         margin-top: 0;
+    }
+
+    #profile-pic {
+        float: none;
     }
 
     .footer-div {
